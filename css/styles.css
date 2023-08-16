@@ -630,7 +630,7 @@ a, button, img {
 }
 
 .request-btn{
-    
+    border: none;
 }
 
 .img-section{
@@ -958,4 +958,68 @@ a, button, img {
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-left: 93px;
+    gap: 20px;
+}
+
+.subscribe-form h2{ 
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.subscribe-form .container input{
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 0 16px;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.48px;                                                                                    
+}
+
+.subscribe-form .container{
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+
+.button-subs{
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
