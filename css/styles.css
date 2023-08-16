@@ -745,6 +745,26 @@ a, button, img {
     line-height: normal;
     letter-spacing: 0.12px;
   }
+
+  .form-modal span{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+
+  .form-comment span{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
   
   
   .form-modal input:focus {
@@ -771,7 +791,7 @@ a, button, img {
   
   .input-icon {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 12px;
     width: 18px;
     height: 18px;
