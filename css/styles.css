@@ -796,6 +796,12 @@ a, button, img {
     width: 18px;
     height: 18px;
   }
+
+  .form-modal .input-icon:focus,
+  .form-modal .input-icon:hover {
+    cursor: pointer;
+    color:#2196F3;
+  }
   
   .agree-check {
     display: flex;
@@ -855,6 +861,14 @@ a, button, img {
     border: none;
     border-radius: 4px;
     color: var(--general-white);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
   }
 
   .form {
